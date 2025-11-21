@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+.tank, .top{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.tank{
+    background-color: black;
+    color: white;
+}
+
+.top{
+    background-color: yellow;
+}
