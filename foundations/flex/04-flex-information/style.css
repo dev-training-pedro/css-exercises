@@ -11,7 +11,25 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+.information-title{
+  display: flex;
+  justify-content: center;
+}
 
+.information-tab{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 1.5em;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  gap: 1em;
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;

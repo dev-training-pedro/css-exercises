@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+*{
+  /* border: solid red; */
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -15,24 +19,51 @@ body {
   justify-content: center;
 }
 
+.prompt{
+  display: flex;
+  flex-direction: column;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px 20px 10px;
+  flex-wrap: wrap;
+  flex: 0 1 1;
+
+}
+.top{
+  display: flex;
+  flex: 1 1 0;
+  justify-content: space-between;
+  margin-bottom: -5px;
 }
 
+.header{
+  margin-right: 8em;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.text{
+  margin-left: 59px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 9px;
 }
 
 .close-button {
@@ -48,7 +79,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-top: 10px;
+  margin-right: 10px;
 }
+
 
 button {
   cursor: pointer;
@@ -66,4 +100,12 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-left: 58px;
+  margin-top: 20px;
 }
